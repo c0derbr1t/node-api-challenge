@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+        - Routers to break up code into smaller, more digestable pieces.
+        - Easier to maintain/reason about (and more readable)
+
 - [ ] Describe Middleware?
+
+        - Middleware is used to add features to express. It allows us to extract out some of the processes in requests and make them readable. This also allows the requests to become easier to see the logic. It is a chain of functions that are executed in the order they are created in the code.
 
 - [ ] Describe a Resource?
 
+        - EVERYTHING is a resource and is accesible via a unique URI. (all of accessed information)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+        - A status code of 200 or 201 generally.
+
 - [ ] How can we partition our application into sub-applications?
+
+        - Using Express Routers.
 
 ## Minimum Viable Product
 
